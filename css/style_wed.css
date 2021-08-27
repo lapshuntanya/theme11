@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+header{
+	height: 710px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/wedding_couple.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+    font-family: Candara;
+}
+header>div{
+		padding: 10px;
+		font-size: 24pt;
+	    color: white;
+}
+header.container{
+	padding: 10px 20px;
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	}
+header h1{
+	font-weight: normal;
+	margin: 15px;
+}
+header p{
+	margin: 10px;
+	font-weight: 100;
+	font-size: 20pt;
+	letter-spacing: 3px;
+} 
+menu{
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+    background-color: white;
+	opacity: 0.6;
+	border-bottom: 3px solid black;
+}
+menu>a{
+	text-decoration: none;
+}
+menu .btn{
+	padding: 10px 20px;
+	color: black;
+}
+/*-----------Jane------------------------*/
+section.jane{
+	background-color: lavenderblush;
+	text-align: center;
+	margin-top: -20px;
+    font-family: Arial;
+}
+section.jane>h2{
+	margin: 20px;
+	padding-top: 30px;
+	color: grey;
+	font-weight: normal;
+	font-size: 24pt;
+}
+section.jane>img{
+	width: 650px;
+	margin: 20px 20%;
+	opacity: 0.7;
+}
+section.jane>p{
+	width: 630px;
+	margin: 20px auto;
+	font-size: 10pt;
+	font-style: italic;
+	text-align: justify;
+	line-height: 1.7;
+    font-family: Candara;
+}
+section.jane .btn{
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+	width: 150px;
+	margin: 30px auto;
+	padding: 15px;
+	font-size: 12pt;
+}
+section.jane>a{
+	text-decoration: none;
+}
+section.jane .text{
+	background-image: url(../img/flowers.jpg);
+	height: 550px;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section.jane h1{
+	font-size: 24pt;
+	margin: 20px auto;
+	padding: 30px;
+	font-weight: 100;
+}
+section.jane p{
+	font-size: 14pt;
+}
+/*---------------wedding-----*/
+section.wedding{
+	background-color: lavenderblush;
+	text-align: center;
+	margin-top: -20px;
+	height: 800px;
+    font-family: Arial;
+}
+section.wedding>h2{
+	margin: 20px;
+	padding-top: 30px;
+	color: grey;
+	font-weight: normal;
+	font-size: 24pt;
+}
+section.wedding img{
+	width: 650px;
+	margin: 20px 20%;
+	opacity: 0.8;
+}
+section.wedding .box{
+	display: flex;
+	justify-content: space-around;
+	width: 650px;
+	margin: 20px auto;
+	font-size: 10pt;
+    font-family: Candara;
+}
+.box1{
+	padding: 10px;
+	margin: 10px ;
+}
+section.wedding h4{
+	font-size: 16pt;
+	font-weight: 300;
+	margin: 10px;
+}
+section.wedding p{
+font-size: 10pt;
+	margin: 10px;	
+}
+/*---------------rsvp-----*/
+section.rsvp{
+	background-color: mistyrose;
+	text-align: center;
+	margin-top: -20px;
+	height: 300px;
+    font-family: Candara;
+}
+section.rsvp>h2{
+	margin: 20px;
+	padding-top: 40px;
+	font-weight: normal;
+	font-size: 24pt;
+	letter-spacing: 3px;
+}
+section.rsvp>p{
+	margin: 15px;
+	padding: 10px;
+	font-size: 12pt;
+	letter-spacing: 3px;
+}
+section.rsvp .btn{
+	background-color: coral;
+	color: white;
+	border-radius: 3px;
+	width: 120px;
+	margin: 30px auto;
+	padding: 15px;
+	font-size: 14pt;
+}
+/*-------footer----*/
+footer{
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+	height: 70px;
+	margin-top: -20px;
+	background-color: black;
+	color: white;
+}
+footer>p{margin-top: 10px;
+	font-size: 12pt;
+}
+footer a{
+	color: white;
+}
